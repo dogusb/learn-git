@@ -28,4 +28,17 @@ shows the journal of repository / commits etc
 - git remote add origin https://github.com/dogusb/learn-git.git
 adds remote repository https://github.com/dogusb/learn-git.git under the name origin
 
- 
+- git push -u origin master
+The name of our remote is origin and the default local branch name is master. Pushes local branch to github
+
+-git branch
+lists all the branches
+
+-git branch <newBranchName>
+creates a new branch
+
+-git checkout <newBranchName>
+switching between branches
+
+
+

@@ -1,9 +1,11 @@
 How Git Works ?
 
 - git init
+
 Initializes git repository on a current directory
 
 - git status
+
 Shows the current status of the working tree
 
 when you create/put a file in the directory, git treats it as an untracked file
@@ -16,3 +18,14 @@ used to make the new file tracked in the staging area
 
 used to commit file to the local repository, -m option can be used to give a label to the file
 
+- gid add '*.txt'
+
+wild card usage / adds all .txt files under any directory of the root
+
+- git log
+shows the journal of repository / commits etc
+
+- git remote add origin https://github.com/dogusb/learn-git.git
+adds remote repository https://github.com/dogusb/learn-git.git under the name origin
+
+ 

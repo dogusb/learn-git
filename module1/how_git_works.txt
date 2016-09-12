@@ -1,0 +1,44 @@
+How Git Works ?
+
+- git init
+
+Initializes git repository on a current directory
+
+- git status
+
+Shows the current status of the working tree
+
+when you create/put a file in the directory, git treats it as an untracked file
+
+- git add <file_name> 
+
+used to make the new file tracked in the staging area
+
+- git commit -m "Label to file"
+
+used to commit file to the local repository, -m option can be used to give a label to the file
+
+- gid add '*.txt'
+
+wild card usage / adds all .txt files under any directory of the root
+
+- git log
+shows the journal of repository / commits etc
+
+- git remote add origin https://github.com/dogusb/learn-git.git
+adds remote repository https://github.com/dogusb/learn-git.git under the name origin
+
+- git push -u origin master
+The name of our remote is origin and the default local branch name is master. Pushes local branch to github
+
+-git branch
+lists all the branches
+
+-git branch <newBranchName>
+creates a new branch
+
+-git checkout <newBranchName>
+switching between branches
+
+
+

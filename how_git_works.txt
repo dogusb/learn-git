@@ -1,0 +1,18 @@
+How Git Works ?
+
+- git init
+Initializes git repository on a current directory
+
+- git status
+Shows the current status of the working tree
+
+when you create/put a file in the directory, git treats it as an untracked file
+
+- git add <file_name> 
+
+used to make the new file tracked in the staging area
+
+- git commit -m "Label to file"
+
+used to commit file to the local repository, -m option can be used to give a label to the file
+
